@@ -2,7 +2,6 @@ package examseating.seatingarrangement;
 
 import examseating.studentmanagement.Student;
 import examseating.roommanagement.Room;
-
 import java.util.*;
 
 public class SeatingArranger {

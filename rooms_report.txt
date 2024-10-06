@@ -1,0 +1,1 @@
+Room{roomNumber=101, capacity=2}

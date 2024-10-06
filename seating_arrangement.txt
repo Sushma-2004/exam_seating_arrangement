@@ -1,0 +1,3 @@
+Seating Arrangement:
+
+Seat 1: Student{name='sushma', id=112155, studentClass='cse', seatNumber=1}

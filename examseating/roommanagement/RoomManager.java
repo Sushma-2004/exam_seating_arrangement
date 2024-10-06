@@ -21,6 +21,7 @@ public class RoomManager {
             System.out.println(room);
         }
     }
+
     public List<Room> getRooms() {
         return rooms;
     }

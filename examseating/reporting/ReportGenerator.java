@@ -4,7 +4,6 @@ import examseating.studentmanagement.Student;
 import examseating.studentmanagement.StudentManager;
 import examseating.roommanagement.Room;
 import examseating.roommanagement.RoomManager;
-
 import java.util.List;
 
 public class ReportGenerator {
@@ -13,16 +12,16 @@ public class ReportGenerator {
         
         // Generate student report
         generateStudentReport(studentManager);
-        
+
         // Generate room report
         generateRoomReport(roomManager);
-        
+
         System.out.println("Reports generated successfully!");
     }
 
     private void generateStudentReport(StudentManager studentManager) {
         List<Student> students = studentManager.getStudents();
-        System.out.println("Student Report:");
+        System.out.println("\nStudent Report:");
         for (Student student : students) {
             System.out.println(student);
         }
@@ -30,7 +29,7 @@ public class ReportGenerator {
 
     private void generateRoomReport(RoomManager roomManager) {
         List<Room> rooms = roomManager.getRooms();
-        System.out.println("Room Report:");
+        System.out.println("\nRoom Report:");
         for (Room room : rooms) {
             System.out.println(room);
         }

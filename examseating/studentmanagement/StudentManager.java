@@ -21,6 +21,7 @@ public class StudentManager {
             System.out.println(student);
         }
     }
+
     public List<Student> getStudents() {
         return students;
     }
